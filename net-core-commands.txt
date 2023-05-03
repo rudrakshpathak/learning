@@ -1,0 +1,8 @@
+dotnet new console -o ConsoleApp
+dotnet new webapp -o WebApp
+dotnet new webapi -o WebApi
+dotnet new webapi -minimal -o MinimalWebApi
+
+
+dotnet new sln
+dotnet sln .\ConsoleApp.sln add .\ConsoleApp.csproj
